@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/watched-movies/static/css/main.ac21bce4.css",
-    "main.js": "/watched-movies/static/js/main.0df98b60.js",
+    "main.js": "/watched-movies/static/js/main.afa9fa90.js",
     "index.html": "/watched-movies/index.html",
     "main.ac21bce4.css.map": "/watched-movies/static/css/main.ac21bce4.css.map",
-    "main.0df98b60.js.map": "/watched-movies/static/js/main.0df98b60.js.map"
+    "main.afa9fa90.js.map": "/watched-movies/static/js/main.afa9fa90.js.map"
   },
   "entrypoints": [
     "static/css/main.ac21bce4.css",
-    "static/js/main.0df98b60.js"
+    "static/js/main.afa9fa90.js"
   ]
 }
