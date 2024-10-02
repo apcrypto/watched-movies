@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/watched-movies/static/css/main.ac21bce4.css",
+    "main.js": "/watched-movies/static/js/main.6e1c142b.js",
+    "index.html": "/watched-movies/index.html",
+    "main.ac21bce4.css.map": "/watched-movies/static/css/main.ac21bce4.css.map",
+    "main.6e1c142b.js.map": "/watched-movies/static/js/main.6e1c142b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac21bce4.css",
+    "static/js/main.6e1c142b.js"
+  ]
+}
