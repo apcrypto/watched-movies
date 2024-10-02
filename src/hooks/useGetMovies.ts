@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const KEY = process.env.REACT_APP_PUBLIC_API_KEY;
 
-export const useMovies = (query) => {
+export const useGetMovies = (query) => {
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
@@ -16,7 +16,7 @@ export const useMovies = (query) => {
         setError('');
 
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=${KEY}&s=${query}`,
+          `https://www.omdbapi.com/?apikey=${KEY}&s=${query}`,
           { signal: controller.signal }
         );
 

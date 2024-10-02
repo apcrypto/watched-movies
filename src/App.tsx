@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useMovies } from './hooks/useMovies.ts';
+import { useGetMovies } from './hooks/useGetMovies.ts';
 import { useLocalStorageState } from './hooks/useLocalStorageState.ts';
 import { Loader } from './components/Loader.tsx';
 import { ErrorMessage } from './components/ErrorMessage.tsx';
@@ -22,7 +22,7 @@ export const KEY = process.env.REACT_APP_PUBLIC_API_KEY;
 export default function App() {
   const [query, setQuery] = useState('');
   const [selectedId, setSelectedId] = useState(null);
-  const { movies, isLoading, error } = useMovies(query);
+  const { movies, isLoading, error } = useGetMovies(query);
   const [watched, setWatched] = useLocalStorageState([], 'watched');
 
   function handleSelectMovie(id) {
